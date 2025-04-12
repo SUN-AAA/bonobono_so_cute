@@ -1,0 +1,74 @@
+.font-title {
+    font-size: 50px;
+    color: blue;
+    background-color: aliceblue;
+    opacity: 0.7;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.font-title2{
+    background-color: aliceblue;
+    opacity: 0.7;
+}
+
+.font-par1 {
+    font-size: 20px;
+    color: rgb(242, 178, 16);
+    font-weight: bold;
+}
+
+.font-par2 {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.font-list {
+    background-color: aliceblue;
+    opacity: 0.7;
+    text-align:left;
+    font-size: 30px;
+    color:blueviolet;
+}
+
+.font-table {
+    background-color: aliceblue;
+    opacity: 0.7;
+    text-align: center;
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+}
+
+body {
+    background-image: url('https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTA5MDVfMzUg%2FMDAxNTY3NjEwMjI1NTI1.hjuYnkQ5dwq5kVeXkQOjUHqCpwEJ0wJh0rHpcEAU1csg.F8pSPEVrduXUE0XH28t05CMZ6Jn6tMGpwcmd9Xiegykg.JPEG.rangha7758%2FIMG_7181.jpg&type=sc960_832');
+    text-align: center;
+}
+
+img {
+    opacity: 1.0;
+    width: 700px;
+}
+
+div {
+    background-image: url('https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA3MTJfMTgg%2FMDAxNjI2MDI3NDk0NjI5.6wzxFHzmJeirimoowy4GfieCm0HxxzU1EqJymyTXm4Ig.GqyWc022ZyMWjYB6FEglklY62AwQuIj9qboR1t59cAYg.JPEG.dct8867%2F%25C4%25A5%25C6%25C7-100.jpg&type=sc960_832');
+    width:750px;
+    height:500px;
+    border: 10px solid;
+    border-radius: 10px;
+    border-color: black;
+    text-align: center;
+
+}
+
+header{
+    text-align: center;
+    background-color: antiquewhite;
+    width:1370px;
+    height:250px;
+}
+
+nav {
+    text-align: center;
+    background-color: antiquewhite;
+    width: 1370px;
+    height: 60px;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learnandtest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="font-title">html과 css를 배워보아요.</h1>
+        <h2 class="font-title2">Masterpiece</h2>
+        <h3 class="font-title2">amazing</h3>
+        <h4>제목은 h뒤 숫자가 커질수록 크기가 작아집니다.</h4>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#one"><b>기본 텍스트</b></a></li>
+            <li><a href=#two><b>에레레레렐렐</b></a></li>
+        </ul>
+    </nav>
+
+    <p class="font-par1" id="one"><b>이건 문단입니다.</b></p>
+    <hr>
+    <p class="font-par1">줄바꿈을 추가합니다.(br이 줄바꿈 태그입니다.) <br>여기서부터 새로운 줄입니다.</p>
+    <hr>
+    <p class="font-par2">구분선 아래의 내용입니다.</p>
+
+    <p class="font-par2"><strong>강조된 글씨를 쓰기 위해 strong 태그를 추가해봤습니다.<br>is it different in English?</strong></p>
+    <p class="font-par2"><b>굵은 글씨를 쓰기 위해 b 태그를 추가해봤습니다.<br>is it different in English?</b></p>
+    <hr>
+    <p class="font-par2"><em>강조된 이탤릭체입니다.<br>is it different in English?</em></p>
+    <p class="font-par2"><i>단순한 이탤릭체입니다.<br>is it different in English?</i></p>
+    <hr>
+
+    <p><b>이미지를 추가해보겠습니다.</b></p>
+    <img
+        src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTAyMjBfOTQg%2FMDAxNzQwMDEyNzk4Njcy.cufkGtgj8VvpXsiO0uZAjxwQYT3ABqOm2IvsJwkLzwcg.qsbAgHLoGgpxGp_nV_8MYmbD9d9wSjZdc5b_afvCuxwg.PNG%2FHTML_-CSS_-JS-001.png&type=sc960_832" 
+        alt="html과 css와 js" width="500">
+    
+    <br>
+
+    <p class="font-par2"><a href="https://youtu.be/cb7VlXqFla4?si=WKEv5MJ55uqceeN8">html+css 배우러 가기~!</a></p>
+    <br>
+    <video width="500" controls>
+        <source src="https://youtu.be/cb7VlXqFla4?si=MfJcqIcaFYVdr246" type="video/mp4">
+      </video>      
+    <br>
+
+    <form action="https://www.youtube.com/" method="post">
+        <label for="name"><b>이름:</b></label>
+        <input type="text" id="name" name="name">
+        <button type="submit">제출</button>
+      </form>
+    
+    <br>
+    <form action="" method="post">
+        <label for="id" style="font-size:20px; color:aquamarine; background-color: black;"><b>ID:</b></label>
+        <input type="text" id="id" name="id">
+        <button type="submit">제출</button>
+    </form>
+    <br>
+    <form action="" method="post">
+        <label for="password" style="font-size:20px; color:aquamarine; background-color: black;"><b>password:</b></label>
+        <input id="password" name="password">
+        <button type="submit">제출</button>
+
+    </form>
+
+    <br id="two"><hr>
+    <ul class="font-list">
+        <li>이거슨</li>
+        <li>순서가 없는</li>
+        <li>목록이고</li>
+    </ul><br><hr>
+    <ol class="font-list">
+        <li>요거슨</li>
+        <li>순서가 있는</li>
+        <li>목록이에요.</li>
+    </ol>
+
+    <br>
+    <p><b>button 태그를 이용하면 버튼을 생성할 수 있습니다.</b></p>
+    <button class="font-par2">click!</button>
+    <br>
+    <hr>
+
+    <p><b>input 태그를 이용하면 입력을 받을 수 있습니다.</b></p>
+    <input type="text" placeholder="이름 입력"><br>
+    <input type="password" placeholder="비밀번호 입력"><br>
+    <input type="checkbox"> 체크박스 <br>
+    <input type="checkbox"> 체크박스2 <br>
+    <input type="radio" name="group"> 라디오 버튼<br>
+
+    <hr>
+    <p><b>textarea태그를 이용하면 여러 줄의 텍스트를 입력받을 수 있습니다.<br>그리고 텍스트박스의 크기 또한 지정할 수 있습니다.</b></p>
+    <textarea rows="10" cols="70">여기에 내용을 입력하세요.</textarea>
+    <br>
+
+    <p><b>이제 테이블 관련 태그를 사용해보겠습니다.</b></p><br>
+    <table class="font-table">
+        <tr>
+            <th>이름</th>
+            <th>나이</th>
+            <th>성별</th>
+        </tr>
+        <tr>
+            <th>정선아</th>
+            <th>18</th>
+            <th>여</th>
+        </tr>
+        <tr>
+            <th>정선아</th>
+            <th>19</th>
+            <th>여</th>
+        </tr>
+        <tr>
+            <th>정선아</th>
+            <th>20</th>
+            <th>여</th>
+        </tr>
+
+    </table>
+
+    <br>
+    <hr>
+    <p class="font-par2"><b>div태그를 써볼게요</b></p>
+    <div>
+        <br><br><br><br><br>
+        <p><b>안녕하세요.</b></p><br>
+        <p><b>반갑습니다.</b></p><br>
+        <p><b>칠판 이미지 넣어보았어요~.</b></p><br>
+    </div>
+    <br><br><br><br><br><hr>
+    <p class="font-title"><b>우앙~</b></p>
+    <hr><br><br><br>
+    
+    <iframe src="https://www.naver.com/" width="500" height="400"></iframe>
+    <P><b>웹사이트 띄우는거 안된다... 배포를 안해서 그런가..?아니면 일부러 막아놓는건가?</b></P>
+
+    <h2 style="color:black; font-size:25px; background-color:azure;"><b>[후기]</b></h2>
+    <p style="font-size:50px;"><b>
+            skrrrrrrrrrr~~~~~~~~~~<br>
+        <hr></b>
+    </p>
+
+</body>
+</html>
